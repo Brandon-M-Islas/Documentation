@@ -6,7 +6,8 @@
                                          `py -m venv <venv_folder_name> --prompt="<terminal_name>" --upgrade-deps`
     To activate a venv:                  `source <venv_folder_name>/bin/activate`
                                          `venv\Scripts\activate`
-    To install packages into venv:       `python -m pip install <package-name>`
+    To install packages into venv:       `python -m pip install   <package-name>`
+    To uninstall packages into venv:     `python -m pip uninstall <package-name>`
     To install dependencies from .txt.:  `python -m pip install -r requirements.txt`
     To list packages & versions in venv: `python -m pip list`
     Save dependencies in .txt file:      `python -m pip freeze > requirements.txt`
